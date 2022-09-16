@@ -2,7 +2,7 @@
 title = "Terraform Workship"
 outputs = ["Reveal"]
 +++
----
+
 ### About Terraform
 
 * Infrastructure as Code
@@ -12,7 +12,7 @@ outputs = ["Reveal"]
 * Open Source
 
 ---
-![Terraform Process](/terraform01.excalidraw.png)
+![Terraform Process](/terraform01.png)
 
 ---
 
@@ -38,14 +38,27 @@ resource "aws_s3_bucket_policy" "cloudfront" {
 ---
 ### Terraform State
 
-* terraform.tfstate 🔴
-* Terraform Cloud 🟢
-* Hashicorp Consul 🟢
-* AWS S3 🟡
-* Azure Blob Storage 🟡
-* Google Cloud Storage 🟡
-* ...
 
-^🟡 Need external locking^
+|                      |       |
+| -------------------- | :---: |
+| terraform.tfstate    |   🔴   |
+| Terraform Cloud      |   🟢   |
+| Hashicorp Consul     |   🟢   |
+| AWS S3               |   🟡   |
+| Azure Blob Storage   |   🟡   |
+| Google Cloud Storage |   🟡   |
+
 
 ---
+
+![Deployment](/terraform02.png)
+
+---
+
+# DEMO
+
+---
+
+### Github OIDC
+
+![OIDC](/terraform03.png)
