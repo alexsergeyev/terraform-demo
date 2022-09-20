@@ -1,5 +1,5 @@
 +++
-title = "Terraform Workship"
+title = "Terraform Workshop"
 outputs = ["Reveal"]
 +++
 
@@ -62,3 +62,7 @@ resource "aws_s3_bucket_policy" "cloudfront" {
 ### Github OIDC
 
 ![OIDC](/terraform03.png)
+
+---
+
+# Thank you!
